@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes em CSS</title>
+  <style>
+    body {
+
+      font-family: Arial, Helvetica, sans-serif;
+
+      /*
+      Medidas Absolutas
+      cm, mm, in, px, pt, pc
+      
+      Medidas Relativas
+      em, ex, rem, vw, ch, %
+      16px == 1em
+      */
+
+      font-size: 1em;
+      font-weight: 300;
+
+      text-align: justify;
+
+    }
+
+    h1 {
+      font-family: 'work Sans', sans-serif;
+      font-weight: bolder;
+      font-size: 3em;
+      font-style: italic;
+      text-decoration: underline;
+    }
+    h3 {
+      /* shorthand tem ordem: font-style -> font-weight -> fonte-size -> font-family*/
+      font: normal 300 2em 'work Sans', sans-serif;
+      color:rgb(2, 171, 33);
+
+    }
+  </style>
+</head>
+<body>
+  <h1>Trabalhando com Fontes</h1> 
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nihil ullam eligendi facilis illo recusandae minus beatae nesciunt, at sunt eos exercitationem laudantium veniam, dolore officiis vitae repellat aliquam voluptas? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis laboriosam reprehenderit voluptatum deleniti eius, deserunt et obcaecati odit quae provident facilis? Animi deleniti suscipit sed minus? Doloremque, optio corporis. Deserunt?</p>
+  <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis consequatur sequi at error vero, quos, necessitatibus, voluptatem commodi vel velit soluta culpa cum sapiente veniam esse ducimus cupiditate exercitationem possimus.</h2>
+  <h3>Teste do SHORTHAND</h3>
+</body>
+</html>

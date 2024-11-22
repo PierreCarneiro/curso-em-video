@@ -1,0 +1,20 @@
+/***
+
+Pseudo-classes e pseudo-elementos
+Uma pseudo-classe CSS é uma palavra-chave adicionada às declarações de um seletor após um sinal de dois pontos e especificam um estado especial de um elemento.Existem várias pseudo-classes para estilos, podemos citar :hover, :visited, :active, :checked, :empty e :focus. 
+
+Já um pseudo-elemento CSS é uma palavra-chave adicionada às declarações de um seletor após dois sinais de dois pontos e permitem que você formate um pedaço específico do elemento referenciado. Os principais pseudo-elementos usados nas CSS são ::before, ::after, ::first-letter, ::first-line.
+
+*/
+.basico {
+  color: blue;
+
+}
+
+.intermediario {
+  color: gray;
+}
+
+.avancado {
+  color: red;
+}

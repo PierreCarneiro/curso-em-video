@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgray;
+      margin: 0;
+    }
+
+    header {
+      background-color: white;
+      padding: 0.5em;
+      margin: 0.5em;
+    }
+
+    nav {
+      background-color: lightgray;
+      padding: 0.5rem;
+      box-shadow: -2px 2px 1px black;
+    }
+
+    nav > a {
+      text-decoration: bold;
+      color: white;
+      font-weight: 600; 
+      margin-right: 2rem;    
+    }
+
+    nav > a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      background-color: white;
+      padding: 0.5em;
+      margin: 0.5em;
+      border-radius: 20px;
+    }
+
+    article {
+      background-color: lightgray;
+      padding: 0.5rem;
+    }
+
+    article > aside {
+      background-color: rgb(31, 20, 20);
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 0.5em;
+      margin: 0;
+    }
+
+    footer >p {
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="">link01</a>
+        <a href="">link02</a>
+        <a href="">link03</a>
+        <a href="">link04</a>
+        <a href="">link05</a>
+        <a href="">link06</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Notícias sobre o Brasil</h2>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime eius perferendis voluptate, doloremque obcaecati hic, quas mollitia ad corporis quis porro, quae nobis eum repellat amet! Accusantium totam consectetur eos!
+          <aside>
+            <p>Artigo escrito por José da Silva.</p>
+          </aside>
+        </article>
+        <article>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatum in. Aliquid non sequi optio consequuntur, delectus nostrum illo cupiditate nisi aut nam. Nobis dolores vel nulla ipsa ad praesentium?
+        </article>
+      </section>      
+    </main>
+    <footer>
+      <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+</body>
+</html>
