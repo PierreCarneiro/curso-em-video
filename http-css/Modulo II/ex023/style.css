@@ -6,8 +6,9 @@ body {
 
 table {
   border-collapse: collapse;
-      height: 400px;
-      width: 1080px;
+  height: 400px;
+  width: 1080px;
+  position: relative;
 }
 
 caption {
@@ -17,11 +18,17 @@ caption {
   background-color: aqua;
 }
 
-thead {
+thead, tfoot {
   background-color: rgba(67, 57, 57, 0.687);
   font-size: 1.2rem;
   font-weight: bolder;
   color: white;
+}
+
+thead tr th {
+  position:sticky;
+  top: 0;
+  background-color: rgba(67, 57, 57, 0.687);
 }
 
 th, td {
