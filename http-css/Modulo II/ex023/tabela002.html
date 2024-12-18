@@ -10,6 +10,7 @@
   <h1>População por estado no Brasil </h1>
    <!--
     Hierarqui de Tabelas (grandes)
+    Caption - S´colocar textos
     Table = tabelas
       Thead
         TR TD TH
@@ -19,16 +20,17 @@
        TR TD TH
     -->
     <table>
+      <caption>População Brasileira por UF</caption>
       <thead>
         <tr>
           <th>Posição</th>
-          <th>Unidade <br> federativa</th>
-          <th>População <br> (Estimativa 2024)[2]</th>
-          <th>População <br> (Censo 2010)[3]</th>
-          <th>Mudança</th>
-          <th>Variação <br> brusca</th>
-          <th>% da <br> pop. <br>total</th>
-          <th>País <br> comparável <br> (habitantes)</th>
+          <th scope="col">Unidade <br> federativa</th>
+          <th scope="col">População <br> (Estimativa 2024)[2]</th>
+          <th scope="col">População <br> (Censo 2010)[3]</th>
+          <th scope="col">Mudança</th>
+          <th scope="col">Variação <br> brusca</th>
+          <th scope="col">% da <br> pop. <br>total</th>
+          <th scope="col">País <br> comparável <br> (habitantes)</th>
         </tr>
       </thead>
       <tbody>
@@ -305,14 +307,14 @@
       </tbody>
       <tfoot>
         <tr> 	 						 
-          <td></td>
-          <td></td>
-          <td>Total População</td>
-          <td>190755799</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <th></th>
+          <th></th>
+          <th scope="row">Total População</th>
+          <th scope="row">190.755.799</th>
+          <th scope="row">milhões de habitantes</th>
+          <th></th>
+          <th></th>
+          <th></th>
         </tr>
       </tfoot>
     </table>  
